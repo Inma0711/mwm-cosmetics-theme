@@ -1,0 +1,52 @@
+/*
+Theme Name: MWM Cosmetics Theme
+Author: Tu Nombre
+Version: 1.0
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Asegurar que los botones y textos específicos también usen Poppins */
+.filter-button,
+.filter-action,
+.filter-icon,
+.page-makeup h1,
+.page-makeup-text p,
+.page-makeup-text p strong {
+    font-family: 'Poppins', sans-serif;
+}
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.mwm-footer {
+  margin-top: auto;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('<?php echo get_template_directory_uri(); ?>/assets/fonts/Poppins/Poppins-Regular.woff2') format('woff2'),
+    url('<?php echo get_template_directory_uri(); ?>/assets/fonts/Poppins/Poppins-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('<?php echo get_template_directory_uri(); ?>/assets/fonts/Poppins/Poppins-Bold.woff2') format('woff2'),
+    url('<?php echo get_template_directory_uri(); ?>/assets/fonts/Poppins/Poppins-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}

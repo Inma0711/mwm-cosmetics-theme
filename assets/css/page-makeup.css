@@ -1,0 +1,230 @@
+.page-makeup {
+    background-color: #ffffff;
+    padding: 36px 144px;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+.page-makeup-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page-makeup-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.page-makeup h1 {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0 0;
+    color: #000;
+    flex-shrink: 0;
+}
+
+.page-makeup-text {
+    max-width: 800px;
+}
+
+.page-makeup-text p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.page-makeup-text p strong {
+    font-weight: bold;
+    color: #000;
+}
+
+/* Filtros */
+.filter-section {
+    background-color: #ffffff;
+    padding: 20px 144px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.filter-buttons {
+    display: flex;
+    padding: 4px 8px;
+    border-radius: 6px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.filter-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.filter-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filter-button.green {
+    border-radius: 6px; 
+    background-color: #C1CEC1;
+    color: #000;
+}
+
+.filter-button.white {
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #C1CEC1;
+}
+
+.filter-action {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #C1CEC1;
+    color: #000;
+}
+
+.filter-action.green {
+    border-radius: 6px;
+}
+
+.filter-action .icon {
+    margin-left: 5px;
+}
+
+.filter-icon {
+    width: 16px;
+    height: 16px;
+    object-fit: contain; 
+    margin-left: 5px; 
+    vertical-align: middle; 
+}
+
+.filter-button,
+.filter-action {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.filter-button.green:hover,
+.filter-action.green:hover {
+    color: #fff; 
+}
+
+.filter-button.white:hover {
+    color: #C1CEC1; 
+    border-color: #AAB8AA; 
+}
+
+/* Productos*/
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    align-items: center;
+    align-items: flex-end;
+    margin-bottom: 100px;
+}
+
+.product-card .product-button {
+    width: 188px;
+    height: 40px;
+    border: solid 2px #557950;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #557950;
+    background-color: transparent;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.product-card .product-button:hover {
+    background-color: #557950; 
+    color: #fff; 
+}
+
+.product-card {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    width: 270px;
+}
+
+.product-card .product-name {
+    margin-bottom: 20px;
+}
+.product-card .product-name, .product-card .product-price {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    width: 220px;
+}
+
+.product-card .product-price {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 15px;    
+}
+
+.product-card .old-price {
+    text-decoration: line-through;
+    color: #222222B5;
+}
+
+.product-card .product-label-offer {
+    background-color: #E74040;
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-style: 'Montserrat', sans-serif;
+    font-weight: bold;
+    z-index: 10;
+    margin-bottom: -50px;
+    margin-left: -150px;
+    height: 24px;
+    width: 75px;
+    text-align: center;
+    line-height: 24px; 
+    border-radius: 3px;
+}
+
+.product-card .product-label-new {
+    background-color: #557950;
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-style: 'Montserrat', sans-serif;
+    font-weight: bold;
+    z-index: 10;
+    margin-bottom: -60px;
+    margin-left: -150px;
+    height: 24px;
+    width: 75px;
+    text-align: center;
+    line-height: 24px; 
+    border-radius: 3px;
+}
+
+.product-card img {
+    width: 270px;
+    height: 240px;
+}

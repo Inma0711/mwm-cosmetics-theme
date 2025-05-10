@@ -1,0 +1,51 @@
+nav {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  margin-left: 54px;
+  margin-right: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mwm-nav .logo img {
+  height: 60px;
+}
+
+.mwm-nav .nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.mwm-nav .nav-list li {
+  display: inline;
+}
+
+.mwm-nav .nav-list li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.mwm-nav .nav-icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.mwm-nav .nav-icons .nav-icon {
+  width: 24px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.mwm-nav .nav-icons .nav-icon:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}

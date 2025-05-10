@@ -1,0 +1,47 @@
+   header .logo img {
+     width: 200px;
+     height: auto;
+   }
+
+   header img {
+     width: 150px;
+     height: auto;
+   }
+
+   .mwm-header {
+     background-color: #c1cec1;
+     min-height: 46px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 20px;
+   }
+
+   .mwm-header .header-content {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+   }
+
+   .mwm-header .left {
+     display: flex;
+     align-items: center;
+   }
+
+   .mwm-header .left span {
+     margin-right: 10px;
+   }
+
+   .mwm-header .left strong {
+     font-weight: bold;
+   }
+
+   .mwm-header .right {
+     display: flex;
+     align-items: center;
+   }
+
+   .mwm-header .right .bold {
+     font-weight: bold;
+     margin-right: 10px;
+   }

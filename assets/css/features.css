@@ -1,0 +1,45 @@
+.features-section {
+    background-color: #FAFAFA;
+    padding: 36px 144px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+.features-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.features-container h2 {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 45px;
+    color: #000;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    flex: 1;
+    min-width: 200px;
+    max-width: 220px;
+    text-align: center;
+}
+
+.feature-item img {
+    width: 95px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.feature-item p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+}
