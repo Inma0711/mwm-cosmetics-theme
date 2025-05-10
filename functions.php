@@ -56,6 +56,26 @@ function mwm_theme_assets() {
       [],
       filemtime(get_template_directory() . '/assets/css/page-makeup.css')
     );
+
+  // Cargar el CSS de page-home
+    wp_enqueue_style(
+      'mwm-home-style',
+      get_template_directory_uri() . '/assets/css/page-home.css',
+      [],
+      filemtime(get_template_directory() . '/assets/css/page-home.css')
+    );
 }
+
+function enqueue_swiper_assets() {
+    // Estilos de Swiper
+    wp_enqueue_style('swiper-css', 'https://unpkg.com/swiper/swiper-bundle.min.css');
+
+    // Script de Swiper
+    wp_enqueue_script('swiper-js', 'https://unpkg.com/swiper/swiper-bundle.min.js', array(), null, true);
+
+    // Tu script personalizado (opcionalmente aquí puedes poner la configuración del Swiper)
+    wp_enqueue_script('custom-swiper-init', get_template_directory_uri() . '/assets/js/swiper-init.js', array('swiper-js'), null, true);
+}
+add_action('wp_enqueue_scripts', 'enqueue_swiper_assets');
 
 add_action('wp_enqueue_scripts', 'mwm_theme_assets');
