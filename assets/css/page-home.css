@@ -2,9 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-     width: 1070px; 
-    height: 679px; 
-    margin: 0 auto; 
+    width: 1070px;
+    height: 679px;
+    margin: 0 auto;
     background-color: #FAFAFA;
     border-radius: 30px;
     margin-top: 60px;
@@ -31,6 +31,7 @@
 }
 
 .product-highlight .badge {
+
     background-color: #557950;
     color: #fff;
     padding: 0.5rem 1rem;
@@ -55,13 +56,11 @@
 .product-info h3,
 .product-info p,
 .product-info .price {
-    margin-bottom: 5px; /* Elimina los márgenes */
-    padding: 0; /* Elimina el padding */
+    margin-bottom: 5px;
+    padding: 0;
 }
 
-
-
-.product-info h3{
+.product-info h3 {
     width: 220px;
     height: 66px;
     font-style: 'Poppins', sans-serif;
@@ -77,8 +76,7 @@
 }
 
 span {
-        font-weight: 700;
-
+    font-weight: 700;
 }
 
 .product-info .price {
@@ -89,6 +87,7 @@ span {
     font-weight: 700;
 
 }
+
 .product-info .price-old {
     width: 242px;
     height: 54px;
@@ -99,6 +98,7 @@ span {
     text-decoration: line-through;
 
 }
+
 .add-to-cart-button {
     width: 188px;
     height: 40px;
@@ -141,25 +141,27 @@ span {
     font-size: 14px;
     transition: background-color 0.3s;
 }
+
 .select-to-cart-button:hover {
     background-color: #557950;
     color: white;
     border: none;
 }
+
 .highlight-text {
     width: 674px;
     height: 679px;
     text-align: left;
-    background-image: url('../images/Cream-Basket.jpg'); 
+    background-image: url('../images/Cream-Basket.jpg');
     background-size: cover;
-    background-position: -300px -50px; 
+    background-position: -300px -50px;
     background-repeat: no-repeat;
     background-size: 1500px;
     border-top-right-radius: 30px;
     border-end-end-radius: 30px;
     color: #fff;
-    position: relative; 
-    overflow: hidden; 
+    position: relative;
+    overflow: hidden;
 }
 
 .highlight-text::before {
@@ -169,15 +171,15 @@ span {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #557950A8; 
+    background-color: #557950A8;
     filter: blur(6.3px);
     z-index: 1;
-    border-radius: 30px; 
+    border-radius: 30px;
 }
 
 .highlight-text h2,
 .highlight-text p {
-    position: relative; 
+    position: relative;
     z-index: 2;
     filter: none;
 }
@@ -209,7 +211,6 @@ span {
 
 
 /* Segunda sección */
-/* Estilos generales */
 .home-slider {
     width: 100%;
     height: 487px;
@@ -226,8 +227,7 @@ span {
     margin-left: -80px;
 }
 
-
-.product-card {
+.swiper-slide .product-card {
     display: flex;
     flex-direction: row;
     width: 568px;
@@ -235,12 +235,12 @@ span {
     background: #fff;
 }
 
-.product-card img {
+.swiper-slide .product-card img {
     width: 276px;
     height: 358px;
 }
 
-.product-card .product-info {
+.swiper-slide .product-card .product-info {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -250,45 +250,53 @@ span {
     height: 358px;
 }
 
-.product-info .tags 
-{
+.swiper-slide .product-card .product-info .tags {
     width: 169px;
     height: 18px;
-    display: flex;;
+    display: flex;
+    ;
     justify-content: space-around;
     margin-bottom: -10px;
 }
 
-.product-info .tags p{
+.swiper-slide .product-card .product-info .tags p {
     font-size: 12px;
     color: #557950;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
 
-.product-card .badge {
+.swiper-slide .product-card .badge {
     background-color: #557950;
+    height: 24px;
+    width: 75px;
     color: #fff;
+    display: flex;
+    align-items: center;
     padding: 0.5rem 1rem;
     border-radius: 3px;
     font-weight: 700px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     position: relative;
-    bottom: 150px;
+    top: 0px;
     left: 90px;
 }
 
-.product-card .badge-offer {
+.swiper-slide .product-card .badge-offer {
     background-color: #E74040;
     color: #fff;
+    height: 24px;
+    width: 75px;
+    display: flex;
+    align-items: center;
     padding: 0.5rem 1rem;
     border-radius: 3px;
     font-weight: 700px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     position: relative;
-    bottom: 150px;
+    top: 0px;
     left: 90px;
 
 }
@@ -299,9 +307,9 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-}   
+}
 
-.swiper{
+.swiper {
     display: flex;
     width: 200px;
     height: 60px;
@@ -314,7 +322,7 @@ span {
     font-weight: bold;
     width: 40px;
     height: 40px;
-    margin-top:-12px;
+    margin-top: -12px;
     transition: background-color 0.3s ease;
 }
 
@@ -330,11 +338,234 @@ span {
     border: 2px solid black;
     background: #fff;
     border-radius: 50%;
-        opacity: 1;
+    opacity: 1;
     transition: background-color 0.3s, opacity 0.3s;
 }
 
 .swiper-pagination-bullet-active {
     background-color: black;
     opacity: 1;
+}
+
+/*Tercera sección*/
+.home-products {
+    display: flex;
+    gap: 10px;
+    height: 937px;
+    width: 1440px;
+    margin-right: 143px;
+    margin-left: 143px;
+}
+
+.container-section {
+    width: 1154px;
+    height: 937px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 40px;
+}
+
+.img-girl img {
+    height: 696px;
+    width: 389px;
+    border-radius: 7px;
+}
+
+.container-products {
+    width: 658px;
+    height: 841px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.tabs-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    gap: 20px;
+}
+
+.tabs-label {
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 40px;
+}
+
+.tabs {
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.tab {
+    color: #737373;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.tab:hover {
+    color: #557950;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav-button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+}
+
+.nav-button:hover {
+    background-color: #f0f0f0;
+}
+
+/*Productos*/
+/* Estilos para el contenedor de productos */
+.products-section-sold {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que los productos se distribuyan en varias filas */
+    justify-content: space-between;
+    /* Distribuye los productos con espacio entre ellos */
+    gap: 10px;
+    /* Espacio entre los productos */
+    width: 100%;
+    /* Asegura que el contenedor tenga el 100% del ancho disponible */
+    max-width: 1200px;
+    /* Máximo ancho del contenedor */
+    margin: 0 auto;
+    /* Centra el contenedor */
+}
+
+/* Estilo para cada producto */
+/* Estilos para el contenedor de productos */
+.products-section-sold .products-section-more-sold {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que los productos se distribuyan en varias filas */
+    justify-content: space-between;
+    /* Distribuye los productos con espacio entre ellos */
+    gap: 10px;
+    /* Espacio entre los productos */
+    width: 100%;
+    /* Asegura que el contenedor tenga el 100% del ancho disponible */
+    max-width: 1200px;
+    /* Máximo ancho del contenedor */
+    margin: 0 auto;
+    /* Centra el contenedor */
+}
+
+/* Estilos para el contenedor de productos */
+.products-section-sold .products-section-more-sold {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que los productos se distribuyan en varias filas */
+    justify-content: space-between;
+    /* Distribuye los productos con espacio entre ellos */
+    gap: 10px;
+    /* Espacio entre los productos */
+    width: 100%;
+    /* Asegura que el contenedor tenga el 100% del ancho disponible */
+    max-width: 1200px;
+    /* Máximo ancho del contenedor */
+    margin: 0 auto;
+    /* Centra el contenedor */
+}
+
+/* Estilo para cada producto */
+.products-section-sold .products-section-more-sold .product {
+    width: calc(33.33% - 10px);
+    /* Cada producto ocupará un tercio del contenedor */
+    box-sizing: border-box;
+    /* Asegura que el padding y el margen no afecten el tamaño del producto */
+    text-align: center;
+    /* Centra el texto dentro del producto */
+    padding: 10px;
+}
+
+.products-section-sold .products-section-more-sold .product img {
+    width: 183px;
+    /* Ancho fijo de 183px para cada imagen */
+    height: auto;
+    /* Mantiene la proporción original de la imagen */
+    display: block;
+    /* Elimina espacio en la parte inferior de las imágenes */
+    margin: 0 auto;
+    /* Centra la imagen dentro del contenedor */
+    border-radius: 8px;
+    /* Bordes redondeados opcionales */
+}
+
+/* Estilo para la información del producto */
+.products-section-sold .products-section-more-sold .product .product-info {
+    margin-top: 15px;
+    /* Añade espacio entre la imagen y la información */
+}
+
+/* Estilo para el nombre del producto */
+.products-section-sold .products-section-more-sold .product .product-info .product-name {
+    font-weight: bold;
+    /* Hace que el nombre del producto sea negrita */
+    font-size: 16px;
+    /* Tamaño de la fuente 16px */
+    margin-bottom: 8px;
+    /* Añade más espacio debajo */
+}
+
+/* Estilo para la categoría */
+.products-section-sold .products-section-more-sold .product .product-info .product-category {
+    color: #737373;
+    /* Color gris para la categoría */
+    font-size: 14px;
+    /* Tamaño de la fuente 14px */
+    margin-bottom: 8px;
+    /* Añade más espacio debajo */
+}
+
+/* Estilo para los precios */
+.products-section-sold .products-section-more-sold .product .product-info .product-prices {
+    font-size: 14px;
+    /* Tamaño de la fuente 14px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    /* Espacio entre el precio tachado y el precio normal */
+}
+
+/* Precio antiguo (tachado) */
+.products-section-sold .products-section-more-sold .product .product-info .product-prices .old-price {
+    color: #BDBDBD;
+    text-decoration: line-through;
+    /* Aplica el tachado al precio antiguo */
+
+    /* Color gris claro para el precio tachado */
+}
+
+/* Precio normal */
+.products-section-sold .products-section-more-sold .product .product-info .product-prices .new-price {
+    font-weight: bold;
+    color: #557950;
+    /* Color verde para el precio normal */
+}
+
+/* Estilo para agregar el símbolo del euro */
+.products-section-sold .products-section-more-sold .product .product-info .product-prices .product-prices span {
+    color: #557950;
+    /* Asegura que el símbolo del euro y los precios tengan el mismo color */
 }
