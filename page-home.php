@@ -192,3 +192,92 @@
         </div>
 
 </section>
+
+
+<section class="slider-section">
+    <h2>2x1 en Cuidado facial</h2>
+    <p>Elije cualquiera de los productos de la categoría "Cuidado facial" y disfruta de un 2x1</p>
+
+    <div class="swiper-container2">
+        <div class=" swiper-wrapper">
+            <!-- Producto 1 -->
+            <div class="swiper-slide">
+                <div class="swiper-slide-green-box">
+                    <span class="new-tag">NUEVO</span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Probiotic-Serum.png"
+                        alt="Producto 1" />
+                    <h3>Probiotic Serum R10 Esse Plus, 30 ml.</h3>
+                    <p><strong>116,00€ IVA Inclu.</strong></p>
+                    <button>AÑADIR AL CARRITO</button>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="swiper-slide">
+                <div class="swiper-slide-green-box">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Exfoliante-Fitoactivo.png"
+                        alt="Producto 2" />
+                    <h3>Exfoliante Fitoactivo Suaviza-Renueva Yipsophilia, 50g.</h3>
+                    <p><strong>116,00€ IVA Inclu.</strong></p>
+                    <button>AÑADIR AL CARRITO</button>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="swiper-slide">
+                <div class="swiper-slide-green-box">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Rellenador-de-Arrugar.jpg"
+                        alt="Producto 3" />
+                    <h3>Rellenador de Arrugas Cuello y Escote D 'Alchemy'</h3>
+                    <p><strong>116,00€ IVA Inclu.</strong></p>
+                    <button>AÑADIR AL CARRITO</button>
+                </div>
+            </div>
+
+            <!-- Producto 4 -->
+            <div class="swiper-slide">
+                <div class="swiper-slide-green-box">
+                    <span class="offer-tag">OFERTA</span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Hyaluronic-serum.jpg"
+                        alt="Producto 4" />
+                    <h3>Hyaluronic serum Esse Skincare</h3>
+                    <p class=" price-before">47,00€ – 82,00€ IVA incl.</p>
+                    <p><strong>41,36€ – 72,16€ IVA incl.</strong></p>
+                    <button>SELECCIONAR OPCIONES</button>
+                </div>
+            </div>
+
+            <!-- Producto 5-->
+            <div class="swiper-slide">
+                <div class="swiper-slide-green-box">
+                    <span class="offer-tag">OFERTA</span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Hyaluronic-serum.jpg"
+                        alt="Producto 4" />
+                    <h3>Hyaluronic serum Esse Skincare</h3>
+                    <p class=" price-before">47,00€ – 82,00€ IVA incl.</p>
+                    <p><strong>41,36€ – 72,16€ IVA incl.</strong></p>
+                    <button>SELECCIONAR OPCIONES</button>
+                </div>
+            </div>
+
+            <!-- Producto 6 -->
+            <div class="swiper-slide">
+                <div class="swiper-slide-green-box">
+                    <span class="offer-tag">OFERTA</span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Hyaluronic-serum.jpg"
+                        alt="Producto 4" />
+                    <h3>Hyaluronic serum Esse Skincare</h3>
+                    <p class=" price-before">47,00€ – 82,00€ IVA incl.</p>
+                    <p><strong>41,36€ – 72,16€ IVA incl.</strong></p>
+                    <button>SELECCIONAR OPCIONES</button>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+    </div>
+
+</section>

@@ -569,3 +569,84 @@ span {
     color: #557950;
     /* Asegura que el símbolo del euro y los precios tengan el mismo color */
 }
+
+/*Seccion slider caja verde*/
+
+.slider-section {
+    height: 737px;
+    width: 100%;
+    padding: 144px;
+    background-color: #e3ebe3;
+    padding: 2rem;
+    font-family: sans-serif;
+}
+
+.swiper-container2 {
+    display: flex;
+    align-items: center;
+    margin-left: 65px;
+    gap: 16px;
+    height: 480px;
+    width: 1152px;
+}
+
+.swiper-container2 .swiper-wrapper {
+    display: flex;
+    gap: 60px;
+    width: 270px;
+    height: 480px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-slide .swiper-slide-green-box {
+    height: 480px;
+    width: 270px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-slide .swiper-slide-green-box img {
+    width: 270px;
+    height: 240px;
+    margin-bottom: 1rem;
+}
+
+.swiper-slide .swiper-slide-green-box h3 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.swiper-slide .swiper-slide-green-box p {
+    margin: 0.2rem 0;
+}
+
+.swiper-slide .swiper-slide-green-box button {
+    background-color: #dce8da;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.new-tag {
+    background-color: #3da66e;
+}
+
+.offer-tag {
+    background-color: #d93838;
+}
+
+.price-before {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 0.9rem;
+}

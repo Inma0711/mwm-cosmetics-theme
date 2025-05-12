@@ -6,6 +6,7 @@
     <title><?php bloginfo('name'); ?></title>
     <?php wp_head(); ?>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 </head>
 
 <body <?php body_class(); ?>>
